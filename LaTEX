@@ -38,15 +38,16 @@
 \fi
 
 % Change the colours if you want to
-\definecolor{VividPurple}{HTML}{3E0097}
+\definecolor{PeacockBlue}{HTML}{000080}
+\definecolor{LightBlue}{HTML}{6495ED}
 \definecolor{SlateGrey}{HTML}{2E2E2E}
 \definecolor{LightGrey}{HTML}{666666}
 % \colorlet{name}{black}
-% \colorlet{tagline}{PastelRed}
-\colorlet{heading}{VividPurple}
-\colorlet{headingrule}{VividPurple}
+\colorlet{tagline}{PeacockBlue}
+\colorlet{heading}{LightBlue}
+\colorlet{headingrule}{LightBlue}
 % \colorlet{subheading}{PastelRed}
-\colorlet{accent}{VividPurple}
+\colorlet{accent}{LightBlue}
 \colorlet{emphasis}{SlateGrey}
 \colorlet{body}{LightGrey}
 
@@ -91,7 +92,7 @@
 %  \homepage{marissamayr.tumblr.com}
 %  \twitter{@marissamayer}
   \linkedin{jessieluk}
-%   \github{github.com/mmayer} % I'm just making this up though.
+  \github{github.com/ladyluk} % I'm just making this up though.
 %   \orcid{0000-0000-0000-0000} % Obviously making this up too.
   %% You can add your own arbitrary detail with
   %% \printinfo{symbol}{detail}[optional hyperlink prefix]
@@ -99,7 +100,7 @@
   %% Or you can declare your own field with
   %% \NewInfoFiled{fieldname}{symbol}[optional hyperlink prefix] and use it:
   % \NewInfoField{gitlab}{\faGitlab}[https://gitlab.com/]
-  % \gitlab{your_id}
+  %\gitlab{}
 	%%
   %% For services and platforms like Mastodon where there isn't a
   %% straightforward relation between the user ID/nickname and the hyperlink,
@@ -126,37 +127,43 @@
 \begin{paracol}{2}
 
 \cvsection{Projects}
-\cvevent{EcoCar Mobility Challenge}{}{}{}
+\cvevent{EcoCar Mobility Challenge}{Georgia Institute of Technology}{August 2021 -- Ongoing}{}
+\begin{itemize}
+    \item Develop a Human Machine Interface System for the Adaptive Cruise Control (ACC). Integrate ACC feature into steering wheel buttons for driver's ease of use enhance UX for ACC tutorial on car's touchscreen.
+    \item Produce test cases for MIL (Model-In-Loop) testing in Simulink (MATLab) on various subsystems of a hybrid smart vehicle
+    \item Documentation of Subsystem Component Requirements and Test Cases
+\end{itemize}
+\divider
+\cvevent{Game Scoring Webapp}{}{}{Ongoing}
+\begin{itemize}
+    \item Build personal scoring apps for playing games with friends and family: Sushi Go, May I, Wits and Wagers
+\end{itemize}
 
 \cvsection{Professional Experience}
 
-\cvevent{President \& CEO}{Yahoo!}{July 2012 -- Ongoing}{Sunnyvale, CA}
+\cvevent{Risk Analyst}{Morgan Stanley}{April 2017 -- February 2020}{New York City}
 \begin{itemize}
-\item Led the \$5 billion acquisition of the company with Verizon -- the entity which believed most in the immense value Yahoo!\ has created
-\item Acquired Tumblr for \$1.1 billion and moved the company's blog there
-\item Built Yahoo's mobile, video and social businesses from nothing in 2011 to \$1.6 billion in GAAP revenue in 2015
-\item Tripled the company's mobile base to over 600 million monthly active users and generated over \$1 billion of mobile advertising revenue last year
+\item Automated reporting, saving 32 man-hours per month
+\item Spearheaded department’s use of data warehouse and ETL concepts in migrating reports to Tableau
+\item Developed VBA macros to expedite team’s processes for Risk Assessment preparations
+\item Presented to Business Unit COOs KRI/KPI scorecards assessing the bank’s risk environment to create awareness and drive business focus
 \end{itemize}
 
 \divider
 
-\cvevent{Vice President of Location \& Services}{Google}{Oct 2010 -- July 2012}{Palo Alto, CA}
+\cvevent{Consultant - Data &/Analytics}{Ernst &/ Young}{March 2015 -- July 2016}{New York City}
 \begin{itemize}
-\item Position Google Maps as the world leader in mobile apps and navigation
-\item Oversaw 1000+ engineers and product managers working on Google Maps, Google Places and Google Earth
+\item Project manager and business analyst for business intelligence solutions and data analytic tools
+\item Automated analysis of client's regulatory review materials with ExcelVBA to meet pending end of month deadline
 \end{itemize}
 
 \divider
 
-\cvevent{Vice President of Search Products \& UX}{Google}{2005 --  2010}{Palo Alto, CA}
-
-\divider
-
-\cvevent{Product Manager \& UI Lead}{Google}{Oct 2001 -- July 2005}{Palo Alto, CA}
+\cvevent{Business Analyst - Business Technology Controls}{J.P. Morgan Chase}{July 2012 -- February 2015}{New York City}
 
 \begin{itemize}
-\item Appointed by the founder Larry Page in 2001 to lead the Product Management and User Interaction teams
-\item Optimized Google's homepage and A/B tested every minor detail to increase usability (incl.~spacing between words, color schemes and pixel-by-pixel element alignment)
+\item Product manager for in-house recertification tool
+\item Remediated control gaps for regulatory driven programs for data governance and quality
 \end{itemize}
 
 % \divider
@@ -202,9 +209,14 @@
 
 \divider
 
-\cvevent{B.S.\ in Human Biology, Health \& Society}{Cornell University}{Aug 2008 -- May 2010}{}
+\cvevent{B.S.\ in Human Biology, Health and Society}{Cornell University}{Aug 2008 -- May 2010}{}
 
 \cvsection{Coursework}
+\textbullet {Fundamentals of System Hardware}
+\textbullet {Intro to OS Concepts}
+\textbullet {Intro to Data Structures}
+\textbullet {Intro to Algorithms}
+\textbullet {Discrete Probability}
 \textbullet {Network Security}
 \textbullet {Computer Networks}
 \textbullet {Intro to Info Security}
