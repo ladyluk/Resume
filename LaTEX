@@ -11,19 +11,6 @@
 %% and version 1.3 or later is part of all distributions of LaTeX
 %% version 2003/12/01 or later.
 %%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%
-% This is an example CV created using altacv.cls (v1.6.4, 13 Nov 2021) written by
-% LianTze Lim (liantze@gmail.com), based on the
-% Cv created by BusinessInsider at http://www.businessinsider.my/a-sample-resume-for-marissa-mayer-2016-7/?r=US&IR=T
-%
-%% It may be distributed and/or modified under the
-%% conditions of the LaTeX Project Public License, either version 1.3
-%% of this license or (at your option) any later version.
-%% The latest version of this license is in
-%%    http://www.latex-project.org/lppl.txt
-%% and version 1.3 or later is part of all distributions of LaTeX
-%% version 2003/12/01 or later.
-%%%%%%%%%%%%%%%%
 
 %% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
 % \documentclass[10pt,a4paper,normalphoto]{altacv}
@@ -142,11 +129,12 @@
 \cvsection{Projects}
 \cvevent{EcoCar Mobility Challenge}{Georgia Institute of Technology}{August 2021 -- Ongoing}{}
 \begin{itemize}
-    \item Develop a Human Machine Interface System for the Adaptive Cruise Control (ACC). Integrate ACC feature into steering wheel buttons for driver's ease of use. Enhance UX for ACC tutorial on car's touchscreen.
+    \item Develop a Human Machine Interface System for the Adaptive Cruise Control (ACC). Create embedded system to integrate ACC feature into steering wheel buttons for driver's ease of use. 
+    \item Enhance graphical interface of car's touchscreen for better UX and interaction with I/O devices. 
     \item Produce test cases for MIL (Model-In-Loop) testing in Simulink (MATLab) on various subsystems of a hybrid smart vehicle. Documentation of Subsystem Component Requirements and Test Cases.
 \end{itemize}
 \divider
-\cvevent{Game Scoring Webapp}{}{}{Ongoing}
+\cvevent{Game Scoring Webapp}{}{Ongoing}{}
 \begin{itemize}
     \item Build personal scoring apps for playing games with friends and family: Sushi Go, May I, Wits and Wagers
 \end{itemize}
@@ -155,7 +143,7 @@
 
 \cvevent{Risk Analyst}{Morgan Stanley}{April 2017 -- February 2020}{New York City}
 \begin{itemize}
-\item Automated reporting, saving 32 man-hours per month
+\item Automated reporting processes, saving 32 man-hours per month
 \item Spearheaded department’s use of data warehouse and ETL concepts in migrating reports to Tableau
 \item Developed VBA macros to expedite team’s processes for Risk Assessment preparations
 \item Presented to Business Unit COOs KRI/KPI scorecards assessing the bank’s risk environment to create awareness and drive business focus
@@ -163,7 +151,7 @@
 
 \divider
 
-\cvevent{Consultant - Data &/Analytics}{Ernst &/ Young}{March 2015 -- July 2016}{New York City}
+\cvevent{Consultant - Data &\ Analytics}{Ernst &\ Young}{March 2015 -- July 2016}{New York City}
 \begin{itemize}
 \item Project manager and business analyst for business intelligence solutions and data analytic tools
 \item Automated analysis of client's regulatory review materials with ExcelVBA to meet pending end of month deadline
@@ -224,231 +212,7 @@
 \cvevent{B.S.\ in Human Biology, Health and Society}{Cornell University}{Aug 2008 -- May 2010}{}
 
 \cvsection{Coursework}
-\textbullet {Fundamentals of System Hardware}
-\textbullet {Intro to OS Concepts}
-\textbullet {Intro to Data Structures}
-\textbullet {Intro to Algorithms}
-\textbullet {Discrete Probability}
-\textbullet {Network Security}
-\textbullet {Computer Networks}
-\textbullet {Intro to Info Security}
-
-\cvsection{Interests}
-
-\textbullet {IoT} 
-\textbullet {3D Printing}
-\textbullet {Scuba Diving}
-\textbullet {Culinary Arts}
-\textbullet {Woodworking}
-\textbullet {Hiking}
-\textbullet {Skiing}
-\textbullet {Archery} 
-\textbullet {Knitting}
-
-\end{paracol}
-
-\end{document}
-
-%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
-% \documentclass[10pt,a4paper,normalphoto]{altacv}
-
-\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
-
-%% AltaCV uses the fontawesome5 package.
-%% See http://texdoc.net/pkg/fontawesome5 for full list of symbols.
-
-% Change the page layout if you need to
-\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
-
-% The paracol package lets you typeset columns of text in parallel
-\usepackage{paracol}
-
-
-% Change the font if you want to, depending on whether
-% you're using pdflatex or xelatex/lualatex
-\ifxetexorluatex
-  % If using xelatex or lualatex:
-  \setmainfont{Lato}
-\else
-  % If using pdflatex:
-  \usepackage[default]{lato}
-\fi
-
-% Change the colours if you want to
-\definecolor{DarkBlue}{HTML}{34495E}
-\definecolor{LightBlue}{HTML}{6495ED}
-\definecolor{SlateGrey}{HTML}{2E2E2E}
-\definecolor{LightGrey}{HTML}{666666}
-% \colorlet{name}{black}
-\colorlet{tagline}{DarkBlue}
-\colorlet{heading}{LightBlue}
-\colorlet{headingrule}{LightBlue}
-% \colorlet{subheading}{PastelRed}
-\colorlet{accent}{LightBlue}
-\colorlet{emphasis}{SlateGrey}
-\colorlet{body}{LightGrey}
-
-% Change some fonts, if necessary
-% \renewcommand{\namefont}{\Huge\rmfamily\bfseries}
-% \renewcommand{\personalinfofont}{\footnotesize}
-% \renewcommand{\cvsectionfont}{\LARGE\rmfamily\bfseries}
-% \renewcommand{\cvsubsectionfont}{\large\bfseries}
-
-% Change the bullets for itemize and rating marker
-% for \cvskill if you want to
-\renewcommand{\itemmarker}{{\small\textbullet}}
-\renewcommand{\ratingmarker}{\faCircle}
-
-%% Use (and optionally edit if necessary) this .tex if you
-%% want to use an author-year reference style like APA(6)
-%% for your publication list
-\input{pubs-authoryear}
-
-%% Use (and optionally edit if necessary) this .tex if you
-%% want an originally numerical reference style like IEEE
-%% for your publication list
-% \input{pubs-num}
-
-%% sample.bib contains your publications
-\addbibresource{sample.bib}
-
-\begin{document}
-\name{Jessie Luk}
-\tagline{Computer Science M.S. Candidate}
-% Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
-%% You can add multiple photos on the left or right
-%\photoR{2.5cm}{mmayer-wikipedia-cc-by-2_0}
-% \photoL{2cm}{Yacht_High,Suitcase_High}
-\personalinfo{%
-  % Not all of these are required!
-  % You can add your own with \printinfo{symbol}{detail}
-  \email{jessie@jessieluk.com}
-  \phone{917-612-6688}
-%  \mailaddress{Address, Street, 00000 County}
-  \location{New York City}
-%  \homepage{marissamayr.tumblr.com}
-%  \twitter{@marissamayer}
-  \linkedin{jessieluk}
-  \github{github.com/ladyluk} % I'm just making this up though.
-%   \orcid{0000-0000-0000-0000} % Obviously making this up too.
-  %% You can add your own arbitrary detail with
-  %% \printinfo{symbol}{detail}[optional hyperlink prefix]
-  % \printinfo{\faPaw}{Hey ho!}
-  %% Or you can declare your own field with
-  %% \NewInfoFiled{fieldname}{symbol}[optional hyperlink prefix] and use it:
-  % \NewInfoField{gitlab}{\faGitlab}[https://gitlab.com/]
-  %\gitlab{}
-	%%
-  %% For services and platforms like Mastodon where there isn't a
-  %% straightforward relation between the user ID/nickname and the hyperlink,
-  %% you can use \printinfo directly e.g.
-  % \printinfo{\faMastodon}{@username@instace}[https://instance.url/@username]
-  %% But if you absolutely want to create new dedicated info fields for
-  %% such platforms, then use \NewInfoField* with a star:
-  % \NewInfoField*{mastodon}{\faMastodon}
-  %% then you can use \mastodon, with TWO arguments where the 2nd argument is
-  %% the full hyperlink.
-  % \mastodon{@username@instance}{https://instance.url/@username}
-}
-
-\makecvheader
-
-%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
-\AtBeginEnvironment{itemize}{\small}
-
-%% Set the left/right column width ratio to 6:4.
-\columnratio{0.6}
-
-% Start a 2-column paracol. Both the left and right columns will automatically
-% break across pages if things get too long.
-\begin{paracol}{2}
-
-\cvsection{Projects}
-\cvevent{EcoCar Mobility Challenge}{Georgia Institute of Technology}{August 2021 -- Ongoing}{}
-\begin{itemize}
-    \item Develop a Human Machine Interface System for the Adaptive Cruise Control (ACC). Integrate ACC feature into steering wheel buttons for driver's ease of use. Enhance UX for ACC tutorial on car's touchscreen.
-    \item Produce test cases for MIL (Model-In-Loop) testing in Simulink (MATLab) on various subsystems of a hybrid smart vehicle
-    \item Documentation of Subsystem Component Requirements and Test Cases
-\end{itemize}
-\divider
-\cvevent{Game Scoring Webapp}{}{}{Ongoing}
-\begin{itemize}
-    \item Build personal scoring apps for playing games with friends and family: Sushi Go, May I, Wits and Wagers
-\end{itemize}
-
-\cvsection{Professional Experience}
-
-\cvevent{Risk Analyst}{Morgan Stanley}{April 2017 -- February 2020}{New York City}
-\begin{itemize}
-\item Automated reporting, saving 32 man-hours per month
-\item Spearheaded department’s use of data warehouse and ETL concepts in migrating reports to Tableau
-\item Developed VBA macros to expedite team’s processes for Risk Assessment preparations
-\item Presented to Business Unit COOs KRI/KPI scorecards assessing the bank’s risk environment to create awareness and drive business focus
-\end{itemize}
-
-\divider
-
-\cvevent{Consultant - Data &/Analytics}{Ernst &/ Young}{March 2015 -- July 2016}{New York City}
-\begin{itemize}
-\item Project manager and business analyst for business intelligence solutions and data analytic tools
-\item Automated analysis of client's regulatory review materials with ExcelVBA to meet pending end of month deadline
-\end{itemize}
-
-\divider
-
-\cvevent{Business Analyst - Business Technology Controls}{J.P. Morgan Chase}{July 2012 -- February 2015}{New York City}
-
-\begin{itemize}
-\item Product manager for in-house recertification tool
-\item Remediated control gaps for regulatory driven programs for data governance and quality
-\end{itemize}
-
-% \divider
-
-% \cvevent{Product Engineer}{Google}{23 June 1999 -- 2001}{Palo Alto, CA}
-
-% \begin{itemize}
-% \item Joined the company as employee \#20 and female employee \#1
-% \item Developed targeted advertisement in order to use user's search queries and show them related ads
-% \end{itemize}
-
-
-
-% use ONLY \newpage if you want to force a page break for
-% ONLY the current column
-
-%% Switch to the right column. This will now automatically move to the second
-%% page if the content is too long.
-\switchcolumn
-
-\cvsection{Skills}
-\textbullet{Python (Pandas)}
-\textbullet{C++}
-\textbullet{Javascript}
-\textbullet{SQL}
-\textbullet{Tableau}
-
-\cvsection{Education}
-
-\cvevent{M.S.\ in Computer Science}{Georgia Institute of Technology}{Jan 2021 -- Ongoing}{}
-
-\divider
-
-\cvevent{Certificate\ for Tandon Bridge Program}{New York University}{Feb 2020 -- Sep 2020}{}
-
-\divider
-
-\cvevent{Certificate\ for Data Science}{Rutgers University}{Oct 2017 -- May 2018}{}
-
-\divider
-
-\cvevent{M.S.\ in Physiology}{Georgetown University}{Aug 2010 -- May 2011}{}
-
-\divider
-
-\cvevent{B.S.\ in Human Biology, Health and Society}{Cornell University}{Aug 2008 -- May 2010}{}
-
-\cvsection{Coursework}
+\textbullet {Embedded Systems}
 \textbullet {Fundamentals of System Hardware}
 \textbullet {Intro to OS Concepts}
 \textbullet {Intro to Data Structures}
