@@ -38,12 +38,12 @@
 \fi
 
 % Change the colours if you want to
-\definecolor{PeacockBlue}{HTML}{000080}
+\definecolor{DarkBlue}{HTML}{34495E}
 \definecolor{LightBlue}{HTML}{6495ED}
 \definecolor{SlateGrey}{HTML}{2E2E2E}
 \definecolor{LightGrey}{HTML}{666666}
 % \colorlet{name}{black}
-\colorlet{tagline}{PeacockBlue}
+\colorlet{tagline}{DarkBlue}
 \colorlet{heading}{LightBlue}
 \colorlet{headingrule}{LightBlue}
 % \colorlet{subheading}{PastelRed}
