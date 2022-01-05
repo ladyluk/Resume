@@ -129,7 +129,7 @@
 \cvsection{Projects}
 \cvevent{EcoCar Mobility Challenge}{Georgia Institute of Technology}{August 2021 -- Ongoing}{}
 \begin{itemize}
-    \item Develop a Human Machine Interface System for the Adaptive Cruise Control (ACC). Integrate ACC feature into steering wheel buttons for driver's ease of use enhance UX for ACC tutorial on car's touchscreen.
+    \item Develop a Human Machine Interface System for the Adaptive Cruise Control (ACC). Integrate ACC feature into steering wheel buttons for driver's ease of use. Enhance UX for ACC tutorial on car's touchscreen.
     \item Produce test cases for MIL (Model-In-Loop) testing in Simulink (MATLab) on various subsystems of a hybrid smart vehicle
     \item Documentation of Subsystem Component Requirements and Test Cases
 \end{itemize}
