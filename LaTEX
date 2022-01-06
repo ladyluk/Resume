@@ -26,6 +26,8 @@
 % The paracol package lets you typeset columns of text in parallel
 \usepackage{paracol}
 
+% Disable hyphenation
+\usepackage[none]{hyphenat}
 
 % Change the font if you want to, depending on whether
 % you're using pdflatex or xelatex/lualatex
@@ -89,9 +91,9 @@
   \phone{917-612-6688}
 %  \mailaddress{Address, Street, 00000 County}
   \location{New York City}
-%  \homepage{marissamayr.tumblr.com}
-%  \twitter{@marissamayer}
+  \homepage{jessieluk.com}
   \linkedin{jessieluk}
+%  \twitter{@marissamayer}
   \github{github.com/ladyluk} % I'm just making this up though.
 %   \orcid{0000-0000-0000-0000} % Obviously making this up too.
   %% You can add your own arbitrary detail with
@@ -126,7 +128,7 @@
 % break across pages if things get too long.
 \begin{paracol}{2}
 
-\cvsection{Projects}
+\cvsection{\faLaptop Projects}
 \cvevent{EcoCar Mobility Challenge}{Georgia Institute of Technology}{August 2021 -- Ongoing}{}
 \begin{itemize}
     \item Develop a Human Machine Interface System for the Adaptive Cruise Control (ACC). Create embedded system to integrate ACC feature into steering wheel buttons for driver's ease of use. 
@@ -139,7 +141,7 @@
     \item Build personal scoring apps for playing games with friends and family: Sushi Go, May I, Wits and Wagers
 \end{itemize}
 
-\cvsection{Professional Experience}
+\cvsection{\faSuitcase Professional Experience}
 
 \cvevent{Risk Analyst}{Morgan Stanley}{April 2017 -- February 2020}{New York City}
 \begin{itemize}
@@ -154,7 +156,7 @@
 \cvevent{Consultant - Data &\ Analytics}{Ernst &\ Young}{March 2015 -- July 2016}{New York City}
 \begin{itemize}
 \item Project manager and business analyst for business intelligence solutions and data analytic tools
-\item Automated analysis of client's regulatory review materials with ExcelVBA to meet pending end of month deadline
+\item Automated analysis of client's regulatory review materials with Excel VBA to meet pending end of month deadline
 \end{itemize}
 
 \divider
@@ -184,14 +186,15 @@
 %% page if the content is too long.
 \switchcolumn
 
-\cvsection{Skills}
+\cvsection{\faCode Skills}
 \textbullet{Python (Pandas)}
 \textbullet{C++}
 \textbullet{Javascript}
+\textbullet{HTML}
 \textbullet{SQL}
 \textbullet{Tableau}
 
-\cvsection{Education}
+\cvsection{\faGraduationCap Education}
 
 \cvevent{M.S.\ in Computer Science}{Georgia Institute of Technology}{Jan 2021 -- Ongoing}{}
 
@@ -211,7 +214,7 @@
 
 \cvevent{B.S.\ in Human Biology, Health and Society}{Cornell University}{Aug 2008 -- May 2010}{}
 
-\cvsection{Coursework}
+\cvsection{\faBook Coursework}
 \textbullet {Embedded Systems}
 \textbullet {Fundamentals of System Hardware}
 \textbullet {Intro to OS Concepts}
@@ -222,15 +225,18 @@
 \textbullet {Computer Networks}
 \textbullet {Intro to Info Security}
 
-\cvsection{Interests}
+\cvsection{\faBicycle Interests}
 
 \textbullet {IoT} 
 \textbullet {3D Printing}
+\textbullet {Travel}
 \textbullet {Scuba Diving}
 \textbullet {Culinary Arts}
+\textbullet {Gardening}
 \textbullet {Woodworking}
 \textbullet {Hiking}
 \textbullet {Skiing}
+\textbullet {Biking}
 \textbullet {Archery} 
 \textbullet {Knitting}
 
